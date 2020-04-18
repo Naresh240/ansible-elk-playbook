@@ -11,4 +11,6 @@
   - { role: elasticsearch }
   - { role: logstash }
   - { role: kibana }
-
+  - { role: metricbeat }
+  - { role: some-data }
+  - { role: restart-services }
